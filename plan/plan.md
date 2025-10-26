@@ -9,9 +9,9 @@
 
 | ✅ | 週 | 学習テーマ | タスク内容 | 成果物 / 目標 |
 |----|----|-------------|-------------|----------------|
-| ☐ | 1 | 所有権とメモリ管理 | - [Effective Modern C++項目13〜18](https://www.amazon.co.jp/dp/4894714999)<br>- `unique_ptr` / `shared_ptr` / `weak_ptr`の動作を確認<br>- copy/moveコンストラクタを自作 | 画像バッファを保持する`FrameBuffer`クラス |
-| ☐ | 1 | moveセマンティクス演習 | - `std::move`と右辺値参照の動作理解<br>- コピー禁止＋ムーブ専用クラスを設計 | コピー禁止・ムーブ専用クラスを作成 |
-| ☐ | 1 | RAIIと例外安全 | - [CppCon: Herb Sutter “Leak Freedom by Default”](https://www.youtube.com/watch?v=JfmTagWcqoE)<br>- `noexcept`指定とtry/catchで例外安全を検証 | 安全なデストラクタ設計を実装 |
+| ✅ | 1 | 所有権とメモリ管理 | - [Effective Modern C++項目13〜18](https://www.amazon.co.jp/dp/4894714999)<br>- `unique_ptr` / `shared_ptr` / `weak_ptr`の動作を確認<br>- copy/moveコンストラクタを自作 | 画像バッファを保持する`FrameBuffer`クラス |
+| ✅ | 1 | moveセマンティクス演習 | - `std::move`と右辺値参照の動作理解<br>- コピー禁止＋ムーブ専用クラスを設計 | コピー禁止・ムーブ専用クラスを作成 |
+| ✅ | 1 | RAIIと例外安全 | - [CppCon: Herb Sutter “Leak Freedom by Default”](https://www.youtube.com/watch?v=JfmTagWcqoE)<br>- `noexcept`指定とtry/catchで例外安全を検証 | 安全なデストラクタ設計を実装 |
 | ☐ | 2 | スレッド基礎 | - [cppreference: std::thread](https://en.cppreference.com/w/cpp/thread/thread)<br>- `join` / `detach`の違いを理解 | 並列出力サンプルプログラム |
 | ☐ | 2 | 排他制御 | - [cppreference: std::mutex](https://en.cppreference.com/w/cpp/thread/mutex)<br>- デッドロック発生条件を確認 | スレッドセーフなカウンター |
 | ☐ | 2 | 条件変数 | - [cppreference: condition_variable](https://en.cppreference.com/w/cpp/thread/condition_variable)<br>- producer-consumer構造で画像処理模擬 | 3スレッド構成のパイプラインデモ |
